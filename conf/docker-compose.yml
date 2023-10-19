@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:latest
-    container_name: sesame_keycloak-database
+    container_name: sesame-keycloak-database
     environment:
       POSTGRES_DB: sesame-keycloak-service
       POSTGRES_USER: sesame
