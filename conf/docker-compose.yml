@@ -26,4 +26,4 @@ services:
     depends_on:
       - postgres
     volumes:
-      - ${TOP_DIR}/conf:/opt/keycloak/data/import
+      - .:/opt/keycloak/data/import
